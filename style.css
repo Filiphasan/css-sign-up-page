@@ -88,4 +88,63 @@ body{
     font-size: 4rem;
     letter-spacing: .4rem;
 }
-
+.right-side-content .links{
+    font-size: 3rem;
+}
+.right-side-content .links i{
+    margin: 0 1rem;
+    cursor: pointer;
+}
+.right-side-content p{
+    font-size: 2rem;
+}
+.sign-up-form {
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .form-group {
+    position: relative;
+  }
+  .form-input {
+    width: 250px;
+    background-color: #f4f8f7;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 1.4rem 0;
+    padding-left: 3rem;
+    border-radius: .5rem;
+  }
+  
+  .form-input::placeholder {
+    color: #a2a2a2;
+  }
+  .icon-form {
+    font-size: 1.5rem;
+    color: #a2a2a2;
+    transform: translate(0, -50%);
+    position: absolute;
+    left: 3%;
+    top: 50%;
+  }
+  .btn-form {
+    width: 180px;
+    padding: 10px 40px;
+    background-color: #fff;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #383e56;
+    border:solid .2rem #383e56 ;
+    cursor: pointer;
+    transition: .5s;
+  }
+  .btn-form:hover{
+      color: #fff;
+      background-color: #383e56;
+      border:solid .2rem #fff ;
+  }

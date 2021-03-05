@@ -10,6 +10,7 @@
     <title>Giriş Yap</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="/img/icons8_form.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
 </head>
 
 <body>
@@ -24,9 +25,27 @@
         <div class="right-side">
             <div class="right-side-content">
                 <h1>Hesap Oluştur</h1>
-                <div class="links">Links</div>
+                <div class="links">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-google-plus"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
                 <p>veya e-mail ile kayıt olun</p>
-                <form action="" class="sign-up-form"></form>
+                <form action="" class="sign-up-form">
+                    <div class="form-group">
+                        <i class="far fa-user icon-form"></i>
+                        <input type="text" class="form-input" placeholder="Kullanıcı Adı">
+                    </div>
+                    <div class="form-group">
+                        <i class="far fa-envelope icon-form"></i>
+                        <input type="text" class="form-input" placeholder="E-Mail">
+                    </div>
+                    <div class="form-group">
+                        <i class="fas fa-lock icon-form"></i>
+                        <input type="password" class="form-input" placeholder="Şifre">
+                    </div>
+                    <button class="btn-form" type="submit">Gönder</button>
+                </form>
             </div>
         </div>
     </div>
