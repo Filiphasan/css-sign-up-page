@@ -115,7 +115,7 @@ body{
     font-weight: 300;
     padding: 1.4rem 0;
     padding-left: 3rem;
-    border-radius: .5rem;
+    border-radius: .7rem;
   }
   
   .form-input::placeholder {
@@ -124,7 +124,7 @@ body{
   .icon-form {
     font-size: 1.5rem;
     color: #a2a2a2;
-    transform: translate(0, -50%);
+    transform: translate(0, -55%);
     position: absolute;
     left: 3%;
     top: 50%;
